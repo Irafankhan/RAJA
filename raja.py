@@ -7,10 +7,10 @@ import datetime
 import os
 
 # insert your Telegram bot token here
-bot = telebot.TeleBot('7489253412:AAFTIiWBAidWBLakYqV9sO3pSEkoDRQgOUI')
+bot = telebot.TeleBot(7300045665:AAFAztleY48zSVWZQdM6nJmSxrcSWQjSxBA)
 
 # Admin user IDs
-admin_id = ["6141252240","915434612"]
+admin_id = [5088175517]
 
 # File to store allowed user IDs
 USER_FILE = "users.txt"
@@ -329,7 +329,7 @@ def handle_bgmi(message):
             response = "✅ Usage :- /bgmi <target> <port> <time>"  # Updated command syntax
     else:
         response = """❌ You Are Not Authorized To Use This Command ❌.
-                      🛒 Please Buy From @RAJA_DDOS"""
+                      🛒 Please Buy From @LUCKY_OWNER_VIP"""
 
     bot.reply_to(message, response)
 
@@ -368,8 +368,8 @@ def show_help(message):
 🤖 To See Admin Commands:
 💥 /admincmd : Shows All Admin Commands.
 
-Buy From :- @RAJA_DDOS
-Official Channel :- https://t.me/+leMudZ_9LYFiMGRl
+Buy From :- @LUCKY_OWNER_VIP
+Official Channel :- https://t.me/+62SH2L9EhRE4ZGQ1
 '''
     for handler in bot.message_handlers:
         if hasattr(handler, 'commands'):
@@ -386,7 +386,7 @@ def welcome_start(message):
     user_name = message.from_user.first_name
     response = f'''❄️ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴘʀᴇᴍɪᴜᴍ ᴅᴅᴏs ʙᴏᴛ, {user_name}! ᴛʜɪs ɪs ʜɪɢʜ ǫᴜᴀʟɪᴛʏ sᴇʀᴠᴇʀ ʙᴀsᴇᴅ ᴅᴅᴏs. ᴛᴏ ɢᴇᴛ ᴀᴄᴄᴇss.
 🤖Try To Run This Command : /help 
-✅BUY :- @RAJA_DDOS'''
+✅BUY :- @LUCKY_OWNER_VIP'''
     bot.reply_to(message, response)
 
 @bot.message_handler(commands=['rules'])
